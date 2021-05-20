@@ -1,0 +1,421 @@
+* {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0 ;
+}
+main {
+    padding-bottom: 200px;
+}
+h1 {
+    font-family: Montserrat;
+    font-size: 50px;
+    text-align: center;
+    display: inline-block;
+    float: center;
+    padding-left: 60px;
+}
+header {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    position: fixed;
+    margin-bottom: 10px;
+}
+header nav {
+    width: 100%;
+    height: 75px;
+    background-color:peru;
+}
+body {
+    background-image: url(../images/back.jpg);
+    background-size: cover;;
+}
+header nav ul {
+    margin: 0 0 0;    
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 75px;
+}
+
+header nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-family: "Times New Roman";
+    color: black;
+    padding: 0 20px 0px;
+    font-size: 25px;
+}
+header nav ul li a:hover {
+    color:springgreen;
+}
+header nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: oldlace;
+    padding: 15px;
+    width: 700px;
+}
+header nav ul li:hover ul {
+    display: block;
+    
+}
+
+header nav .search li {
+    display: inline-block;
+    padding-left: 350px;
+}
+header nav .login li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 30px;
+    line-height: 75px;
+}
+
+
+.wrapper {
+    background-color: oldlace;
+    margin: 0 auto;
+    width: 1300px;
+}
+.photo {
+    width: 1000px;
+    padding-top: 50px;
+    padding-left: 160px;
+}
+.iitg {
+    width: 80%;
+    height: 80%;
+    margin-left: 125px;
+    box-shadow: 10px 10px 10px 2px gray;
+
+}
+p {
+    font-family: "Roboto Slab";
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    padding: 5px;
+    
+}
+a {
+    text-decoration: none;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.link:hover {
+    color: red;
+}
+.youtube {
+    position: relative;
+    padding-bottom: 40%;
+    padding-top: 30px;
+    height: 0px;
+    background-color: oldlace;
+}
+.youtube iframe {
+    position: absolute;
+    left: 125px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 80%;
+    width: 80%;
+    background-color: oldlace;
+}
+header .logo {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 100px;
+
+}
+h2 {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 50px;
+}
+div.hostels {
+    width: 100%;
+    background-color:white;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    background-color: oldlace;
+        
+}
+div.brahma {
+    height: 400px;
+    margin: 25px;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+.hst {
+    padding: 20px;
+    padding-left: 40px;
+    width: 300px;
+    height: 200px;
+}
+
+div.lohit {
+    display: inline-block;
+    height: 400px;
+    margin: 25px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+
+}
+div.dihing {
+    height: 400px;
+    margin: 25px;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+div.kameng {
+    display: inline-block;
+    height: 400px;
+    margin: 25px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+div.umiam {
+    display: inline-block;
+    height: 400px;
+    margin: 25px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+div.barak {
+    display: inline-block;
+    height: 400px;
+    margin: 25px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+div.manas {
+    display: inline-block;
+    height: 400px;
+    margin: 25px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+div.disang {
+    display: inline-block;
+    height: 400px;
+    margin: 25px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+div.dibang {
+    display: inline-block;
+    height: 400px;
+    margin: 25px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+div.kapili {
+    display: inline-block;
+    height: 400px;
+    margin: 25px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+div.siang {
+    display: inline-block;
+    height: 400px;
+    margin: 25px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+div.dhansiri {
+    display: inline-block;
+    height: 400px;
+    margin: 25px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+div.subansiri {
+    display: inline-block;
+    height: 400px;
+    margin: 25px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+div.msh {
+    display: inline-block;
+    height: 400px;
+    margin: 25px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+div.features {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:white;
+    justify-content: flex-start;
+    border-style: solid;
+    border-width: 1px;
+    background-color: oldlace;
+
+}
+div.rank {
+    display: inline-block;
+    width: 25%;
+    height: 500px;
+    margin: 35px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+div.facilities {
+    display: inline-block;
+    width: 25%;
+    height: 500px;
+    margin: 35px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+.fac {
+    padding: 20px;
+    padding-left: 20px;
+    width: 300px;
+    height: 200px;
+}
+div.indoor {
+    display: inline-block;
+    width: 25%;
+    height: 500px;
+    margin: 35px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 2px gray;
+    background-color: white;
+}
+footer {
+    background-color: peru;
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+    height: 175px;
+    margin-top: 10px;
+}
+footer ul {
+
+}
+div.feedback {
+    display:inline-block;
+}
+h3 {
+    font-family: Montserrat;
+    font-size: 25px;
+}
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+footer .insta {
+    display: inline-block;
+    width: 75px;
+    padding-left: 700px;
+    padding-bottom: 20px;
+    height: 75px;
+    float: right;
+}
+footer .fb {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    padding-bottom: 20px;
+    margin: 0px;
+    float: right;
+}
+footer .ln {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    padding-bottom: 20px;
+    float: right;
+}
+.aa {
+    font-family: Montserrat;
+    font-size: 15px;
+    padding-left: 700px;
+}

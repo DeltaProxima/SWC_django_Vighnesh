@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align:center; background-color: white; width:100%; height:100px; text-align: center; font-size: 75px;">Welcome To Wizard Mart</h1>
+    </header>
+    <main>
+        <div class="content-section" sty>
+            <form method="POST">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    <legend class="border-bottom mb-4">Sign In To Continue</legend>
+                    {{form.as_p}}
+                </fieldset>
+                <div class="form-group">
+                    <button class="btn btn-outline-info" type="submit">Sign In </button>               
+                </div>
+            </form>
+            <div class="border-top pt-3">
+                <small class="text-muted">
+                    Don't Have an Account? <a href="{% url 'register' %}">Click to Create an Account</a>
+                </small>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
