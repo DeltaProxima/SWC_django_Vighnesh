@@ -29,6 +29,7 @@ I would like to inform you certain defects in my project:
 2. Due to some issue not known the images for brooms in brooms product description are not displayed on the screen. Sorry for the inconvinience caused.
 
 Regards,
+
 Vighnesh Deshpande
 First Year Chemical Engineering
 Roll No. 200107093
